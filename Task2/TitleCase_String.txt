@@ -1,0 +1,10 @@
+var str= "james arthur bond";
+(function(name){
+var newName =name.split(' ')
+for(let v = 0 ; v < newName.length ; v++)
+{
+newName[v]=newName[v].charAt(0).toUpperCase() + newName[v].slice(1);
+
+}
+console.log(newName.join(' '))
+})(str);
