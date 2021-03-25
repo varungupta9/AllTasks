@@ -1,0 +1,18 @@
+var array= [1,1,4,9,4,96,11,4,20,4];
+(function(arr){
+var i =0;
+while(i < arr.length)
+{
+ var temp = arr[i];
+ var index = arr.includes(temp,i+1)
+if(index===false)
+{
+i++}
+else
+{
+arr.splice(i,1)
+}
+
+}
+console.log(arr)
+})(array);

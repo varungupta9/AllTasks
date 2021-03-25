@@ -1,0 +1,13 @@
+var array= [1,2,3,4,5];
+(function(arr,k){
+var count = 0;
+while(count<k)
+{
+var temp =arr.pop();
+arr.unshift(temp);
+count++
+
+}
+
+console.log(arr)
+})(array,4);

@@ -1,0 +1,23 @@
+var arrays= [ 11,289,30,494,54,67,76,828,909,10,11211,121,13,14,171];
+(function(number){
+
+for(let i = 0; i<number.length ; i++)
+{
+var temp =0 , num =0 , rem =0;
+var current= number[i];
+temp = number[i];
+while(current >0)
+{
+rem = current%10;
+current = parseInt(current/10);
+num = num*10+rem;
+}
+if(temp===num)
+{
+console.log(temp)
+}
+} 
+
+
+})(arrays);
+
