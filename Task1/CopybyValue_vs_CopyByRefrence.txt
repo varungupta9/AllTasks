@@ -1,0 +1,3 @@
+Primitive data types are passed, or copied, by value and are immutable.
+That means the existing value cannot be altered the way an array or an object can.
+Objects are passed by reference and point to a location in memory for the value, not the value itself. 
